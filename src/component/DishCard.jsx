@@ -5,6 +5,7 @@ function DishCard({project}) {
     <div>
     <img src={project.image}
          alt={project.title}
+         loading='lazy'
          className='rounded-3xl p-2'/>
 
     <div className='p-4'>
